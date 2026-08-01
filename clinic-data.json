@@ -61,6 +61,152 @@
         "sunday":    { "morning": "10:00–12:00", "evening": "5:00–8:00", "available": true }
       }
     },
+   "faqs": [
+  {
+    "id": "faq_001",
+    "category": "appointments",
+    "active": true,
+    "question": "How do I book an appointment?",
+    "answer": "You can call the clinic directly, send us a WhatsApp message, or book online via our Practo profile. Walk-ins are also welcome during clinic hours.",
+    "tags": ["booking", "appointment", "practo"]
+  },
+  {
+    "id": "faq_002",
+    "category": "appointments",
+    "active": true,
+    "question": "Do I need to book in advance or can I walk in?",
+    "answer": "Both are welcome. Walk-ins are accepted during clinic hours subject to doctor availability. For specific doctors or procedures, booking in advance is recommended.",
+    "tags": ["walk-in", "booking"]
+  },
+  {
+    "id": "faq_003",
+    "category": "timings",
+    "active": true,
+    "question": "What are the clinic timings?",
+    "answer": "Monday to Saturday: 10:00 AM – 1:30 PM and 5:00 PM – 9:00 PM. Saturday evening closes at 8:30 PM. Closed on Sundays.",
+    "tags": ["timings", "hours", "open"]
+  },
+  {
+    "id": "faq_004",
+    "category": "timings",
+    "active": true,
+    "question": "Is the clinic open on public holidays?",
+    "answer": "The clinic is closed on major public holidays. Please check our website or WhatsApp us to confirm availability on specific holidays.",
+    "tags": ["holiday", "closed", "timings"]
+  },
+  {
+    "id": "faq_005",
+    "category": "payments",
+    "active": true,
+    "question": "What payment methods are accepted?",
+    "answer": "We accept cash, credit cards, debit cards, Paytm, Google Pay, PhonePe and all UPI-based payments.",
+    "tags": ["payment", "upi", "cards", "cash"]
+  },
+  {
+    "id": "faq_006",
+    "category": "payments",
+    "active": true,
+    "question": "Do you accept health insurance?",
+    "answer": "We currently accept select insurance plans. Please call the clinic or WhatsApp us with your insurance provider name to confirm coverage before your visit.",
+    "tags": ["insurance", "cashless", "payment"]
+  },
+  {
+    "id": "faq_007",
+    "category": "treatments",
+    "active": true,
+    "question": "What is MicroDentistry or microscope-assisted root canal?",
+    "answer": "MicroDentistry uses a high-magnification dental operating microscope to perform root canal treatment with far greater precision. It allows better detection of canals, less tooth structure removal, and improved outcomes compared to conventional root canal.",
+    "tags": ["root canal", "microscope", "microdentistry", "endodontics"]
+  },
+  {
+    "id": "faq_008",
+    "category": "treatments",
+    "active": true,
+    "question": "Is root canal treatment painful?",
+    "answer": "Modern root canal treatment is performed under local anaesthesia and is largely painless during the procedure. Post-procedure discomfort is usually mild and manageable with medication. Our microscope-assisted technique also reduces the number of sittings needed.",
+    "tags": ["root canal", "pain", "anaesthesia"]
+  },
+  {
+    "id": "faq_009",
+    "category": "treatments",
+    "active": true,
+    "question": "How many sittings does a root canal take?",
+    "answer": "Most root canals at Dentics are completed in 1 to 2 sittings, thanks to our microscope-assisted technique. Complex cases may require more. Your doctor will advise after examination.",
+    "tags": ["root canal", "sittings", "duration"]
+  },
+  {
+    "id": "faq_010",
+    "category": "treatments",
+    "active": true,
+    "question": "Do you offer teeth whitening?",
+    "answer": "Yes. We offer professional laser teeth whitening which is faster and more effective than home kits. Results are typically visible in a single session.",
+    "tags": ["whitening", "cosmetic", "laser"]
+  },
+  {
+    "id": "faq_011",
+    "category": "treatments",
+    "active": true,
+    "question": "What types of braces do you offer?",
+    "answer": "We offer metal braces, ceramic (tooth-coloured) braces, and clear aligner options. The right choice depends on the complexity of correction needed and your preference. Our doctor will recommend the best option after an orthodontic assessment.",
+    "tags": ["braces", "aligners", "orthodontics", "ceramic"]
+  },
+  {
+    "id": "faq_012",
+    "category": "treatments",
+    "active": true,
+    "question": "What is a dental implant and how long does it take?",
+    "answer": "A dental implant is a titanium fixture placed in the jawbone to replace a missing tooth permanently. The process typically takes 3 to 6 months in total — including healing time — and involves 2 to 3 visits. The result looks and functions like a natural tooth.",
+    "tags": ["implant", "missing tooth", "titanium"]
+  },
+  {
+    "id": "faq_013",
+    "category": "safety",
+    "active": true,
+    "question": "How does the clinic ensure sterilisation and safety?",
+    "answer": "We follow strict sterilisation protocols: B-Class autoclaves, UV chambers, ultrasonic cleaners, and air purification systems. All staff wear full PPE and surfaces are disinfected with sodium hypochlorite between patients.",
+    "tags": ["sterilisation", "safety", "hygiene", "autoclave"]
+  },
+  {
+    "id": "faq_014",
+    "category": "safety",
+    "active": true,
+    "question": "Are digital X-rays safer than conventional X-rays?",
+    "answer": "Yes. Digital X-rays emit significantly less radiation than conventional X-rays — up to 80% less — while producing higher-resolution images. All imaging at Dentics is done digitally.",
+    "tags": ["x-ray", "digital", "radiation", "safety"]
+  },
+  {
+    "id": "faq_015",
+    "category": "children",
+    "active": true,
+    "question": "Do you treat children?",
+    "answer": "Yes, we treat patients of all ages including young children. Paediatric services include check-ups, fluoride treatments, pit and fissure sealants, and early orthodontic assessment.",
+    "tags": ["children", "kids", "paediatric", "fluoride"]
+  },
+  {
+    "id": "faq_016",
+    "category": "general",
+    "active": true,
+    "question": "How often should I visit the dentist?",
+    "answer": "We recommend a routine check-up and cleaning every 6 months. Early detection of issues saves time, cost, and discomfort in the long run.",
+    "tags": ["checkup", "routine", "cleaning", "prevention"]
+  },
+  {
+    "id": "faq_017",
+    "category": "general",
+    "active": true,
+    "question": "Is parking available near the clinic?",
+    "answer": "Street parking is available on MM Road and adjacent lanes near Cox Town Circle. The clinic is also easily accessible by auto-rickshaw and BMTC bus.",
+    "tags": ["parking", "directions", "transport"]
+  },
+  {
+    "id": "faq_018",
+    "category": "general",
+    "active": true,
+    "question": "Where exactly is the clinic located?",
+    "answer": "Dentics Dental Care is at 12, 1st Floor, MS Plaza, MM Road, Cox Town, Bangalore – 560005. We are near the Cox Town Circle and ITC flyover. Look for MS Plaza on MM Road.",
+    "tags": ["location", "address", "directions", "cox town"]
+  }
+]
     {
       "id": "pradeep",
       "name": "Dr. Pradeep Kumar",
