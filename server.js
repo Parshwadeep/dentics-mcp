@@ -113,6 +113,19 @@ app.get('/api/health', (req, res) => {
 });
 
 // ─────────────────────────────────────────────
+// GET /api/faqs  — full FAQ list (active only by default)
+// ─────────────────────────────────────────────
+app.get('/api/faqs', (req, res) => {
+  const data = loadData();
+  const faqs = data.faqs || [];
+  const all  = req.query.all === 'true';
+  res.json({
+    ok:   true,
+    faqs: all ? faqs : faqs.filter(f => f.active !== false),
+  });
+});
+
+// ─────────────────────────────────────────────
 // Root
 // ─────────────────────────────────────────────
 app.get('/', (req, res) => {
@@ -123,6 +136,7 @@ app.get('/', (req, res) => {
       'GET /api/doctors       — all doctors + schedules',
       'GET /api/announcements — active announcements',
       'GET /api/holidays      — holiday list',
+      'GET /api/faqs          — FAQ list (active only; ?all=true for all)',
       'GET /api/health        — health check',
     ]
   });
