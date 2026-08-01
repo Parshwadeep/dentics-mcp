@@ -205,6 +205,14 @@
     "question": "Where exactly is the clinic located?",
     "answer": "Dentics Dental Care is at 12, 1st Floor, MS Plaza, MM Road, Cox Town, Bangalore – 560005. We are near the Cox Town Circle and ITC flyover. Look for MS Plaza on MM Road.",
     "tags": ["location", "address", "directions", "cox town"]
+  },
+  {
+    "id": "faq_019",
+    "category": "general",
+    "active": true,
+    "question": "Does Dr Rajesh has a dog?",
+    "answer": "Yes, he has one dog.",
+    "tags": ["location", "address", "directions", "cox town"]
   }
 ]
     {
