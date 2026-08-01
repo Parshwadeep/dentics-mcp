@@ -1,0 +1,92 @@
+{
+  "_comment": "EDIT THIS FILE to update clinic info. Changes go live instantly.",
+
+  "announcements": [
+    {
+      "id": 1,
+      "active": true,
+      "type": "service",
+      "icon": "🦷",
+      "title": "Advanced Procedures Now Available",
+      "body": "Microscope-assisted Root Canal (MicroDentistry), Laser Teeth Whitening & Digital Smile Design now available at Dentics."
+    },
+    {
+      "id": 2,
+      "active": false,
+      "type": "closure",
+      "icon": "📢",
+      "title": "Special Announcement",
+      "body": "Edit this in clinic-data.json to add a custom message."
+    }
+  ],
+
+  "holidays": [
+    { "date": "2026-08-15", "name": "Independence Day", "closed": true },
+    { "date": "2026-08-27", "name": "Ganesh Chaturthi", "closed": true },
+    { "date": "2026-10-02", "name": "Gandhi Jayanti",   "closed": true },
+    { "date": "2026-10-20", "name": "Dussehra",         "closed": true },
+    { "date": "2026-11-01", "name": "Kannada Rajyotsava","closed": true },
+    { "date": "2026-11-12", "name": "Diwali",           "closed": true },
+    { "date": "2026-12-25", "name": "Christmas",        "closed": true }
+  ],
+
+  "doctors": [
+    {
+      "id": "rajesh",
+      "name": "Dr. Rajesh A.G",
+      "title": "BDS, MDS — Endodontist",
+      "avatar": "R",
+      "schedule": {
+        "monday":    { "morning": "10:00–1:30", "evening": "5:00–8:30", "available": true },
+        "tuesday":   { "morning": "10:00–1:30", "evening": "5:00–8:30", "available": true },
+        "wednesday": { "morning": "10:00–1:30", "evening": "5:00–8:30", "available": true },
+        "thursday":  { "morning": "10:00–1:30", "evening": "5:00–8:30", "available": true },
+        "friday":    { "morning": "10:00–1:30", "evening": "5:00–8:30", "available": true },
+        "saturday":  { "morning": "10:00–1:00", "evening": "5:00–8:30", "available": true },
+        "sunday":    { "morning": null,          "evening": null,         "available": false }
+      }
+    },
+    {
+      "id": "reshma",
+      "name": "Dr. Reshma",
+      "title": "BDS — Dental Surgeon",
+      "avatar": "R",
+      "schedule": {
+        "monday":    { "morning": "10:00–12:00", "evening": "5:00–8:00", "available": true },
+        "tuesday":   { "morning": "10:00–12:00", "evening": "5:00–8:00", "available": true },
+        "wednesday": { "morning": "10:00–12:00", "evening": "5:00–8:00", "available": true },
+        "thursday":  { "morning": "10:00–12:00", "evening": "5:00–8:00", "available": true },
+        "friday":    { "morning": "10:00–12:00", "evening": "5:00–8:00", "available": true },
+        "saturday":  { "morning": "10:00–12:00", "evening": "5:00–8:00", "available": true },
+        "sunday":    { "morning": "10:00–12:00", "evening": "5:00–8:00", "available": true }
+      }
+    },
+    {
+      "id": "pradeep",
+      "name": "Dr. Pradeep Kumar",
+      "title": "BDS — Dental Surgeon",
+      "avatar": "P",
+      "schedule": {
+        "monday":    { "morning": "10:00–1:30", "evening": "5:00–9:00", "available": true },
+        "tuesday":   { "morning": "10:00–1:30", "evening": "5:00–9:00", "available": true },
+        "wednesday": { "morning": "10:00–1:30", "evening": "5:00–9:00", "available": true },
+        "thursday":  { "morning": "10:00–1:30", "evening": "5:00–9:00", "available": true },
+        "friday":    { "morning": "10:00–1:30", "evening": "5:00–9:00", "available": true },
+        "saturday":  { "morning": "10:00–1:30", "evening": "5:00–9:00", "available": true },
+        "sunday":    { "morning": null,          "evening": null,         "available": false }
+      }
+    }
+  ],
+
+  "clinic": {
+    "name": "Dentics Dental Care",
+    "whatsapp": "919740707946",
+    "phone": "+91-97407-07946",
+    "address": "12, 1st Floor, MS Plaza, M M Road, Cox Town, Bangalore — 560005",
+    "timings": {
+      "weekday": { "morning": "10:00 AM – 1:30 PM", "evening": "5:00 PM – 9:00 PM" },
+      "saturday": { "morning": "10:00 AM – 1:00 PM", "evening": "5:00 PM – 8:30 PM" },
+      "sunday": "Closed"
+    }
+  }
+}
