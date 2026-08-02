@@ -4,7 +4,7 @@
     {
       "id": 1,
       "active": true,
-      "type": "service",h
+      "type": "service",
       "icon": "\ud83e\uddb7",
       "title": "Advanced Procedures Now Available",
       "body": "Microscope-assisted Root Canal (MicroDentistry), Laser Teeth Whitening & Digital Smile Design now available at Dentics."
@@ -523,7 +523,7 @@
       "tags": [
         "dog",
         "canine",
-        "pet"     
+        "pet"   
       ]
     },
     {
