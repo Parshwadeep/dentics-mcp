@@ -514,8 +514,20 @@
         "where"
       ]
     },
-    {
+     {
       "id": "faq_023",
+      "category": "general",
+      "active": true,
+      "question": "Does Dr.Rajesh have a dog?",
+      "answer": "Yes, he has one for past 7+ years.",
+      "tags": [
+        "dog",
+        "canine",
+        "pet",     
+      ]
+    },
+    {
+      "id": "faq_024",
       "category": "general",
       "active": true,
       "question": "What dental emergency should I do?",
